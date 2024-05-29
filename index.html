@@ -1,276 +1,371 @@
-<!doctype html>
-<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
-<html lang="en-gb" class="no-js">
-<!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<!--[if lt IE 9]> 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <![endif]-->
-<title>RedFox</title>
-<meta name="description" content="">
-<meta name="author" content="WebThemez">
-<!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-<!--[if lte IE 8]>
-		<script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
-	<![endif]-->
-<link rel="stylesheet" href="css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
-<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-<link href="css/animate.css" rel="stylesheet" media="screen">
-<link href="flexslider/flexslider.css" rel="stylesheet" />
-<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css" />
-<!-- Font Awesome -->
-<link href="font/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="shortcut icon" type="image/jpg" href="images/Logotipo Padrão.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="webthemez">
+    <title>Colégio TCA</title>
+	<!-- core CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet"> 
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet"> 
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/logo.png"> 
+</head> 
 
-</head>
+<body id="home">
 
-<body>
-<header class="header">
-  <div class="container">
-    <nav class="navbar navbar-inverse" role="navigation">
-      <div class="navbar-header">
-        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <a href="#" class="navbar-brand scroll-top logo  animated bounceInLeft">
-          <img src="images/Logotipo Padrão.png" alt="Logo da escola" />
-        
-        </a> 
-      </div>
-      <!--/.navbar-header-->
-      <div id="main-nav" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav" id="mainNav">
-          <li class="active" id="firstLink"><a href="#home" class="scroll-link">Inicio</a></li>
-          <li><a href="#aboutUs" class="scroll-link">Sobre nós</a></li>
-          <li><a href="#services" class="scroll-link">Programas</a></li>
-          <li><a href="#work" class="scroll-link">Metodologia na Prática</a></li>
-        </ul>
-      </div>
-      <!--/.navbar-collapse--> 
-    </nav>
-    <!--/.navbar--> 
-  </div>
-  <!--/.container--> 
-</header>
+    <a class="whatsapp-link" href="https://wa.me//5511962761827/?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20colégio." target="_blank">
+        <i class="fa fa-whatsapp"></i>    
+    </a>
 
-<a class="whatsapp-link" href="https://wa.me/11988119673/" target="_blank">
-  <i class="fa fa-whatsapp"></i>
-</a>
-
-<!--/.header-->
-<div id="#top"></div>
-<section id="home">
-  <div class="banner-container"> 
-  <!-- Slider -->
-        <div id="main-slider" class="flexslider">
-            <ul class="slides">
-              <li>
-                <img src="images/slides/1.png" alt="" />
-                <div class="flex-caption container">
+    <header id="header">
+        <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" width="110px"></a>
                 </div>
-              </li>
-              <li>
-                <img src="images/slides/2.png" alt="" />
-                <div class="flex-caption container">
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="scroll active"><a href="#home">Inicio</a></li> 
+						<li class="scroll"><a href="#products">Sobre o colégio</a></li>
+                        <li class="scroll"><a href="#portfolio">Ambientes</a></li>
+                        <li class="scroll"><a href="#team">Saindo da rotina</a></li>
+                        <li class="scroll"><a href="#contact-us">Contato</a></li>                        
+                    </ul>
                 </div>
-              </li>
-              <li>
-                <img src="images/slides/3.png" alt="" />
-                <div class="flex-caption container">
-                </div>
-              </li>
-            </ul>
-        </div>
-	<!-- end slider -->
-  </div>
-</section>
-<section id="aboutUs">
-  <div class="container">
-    <div class="heading text-center"> 
-      <!-- Heading -->
-    </div>
-    <div class="row feature design">
-      <div class="area1 columns right">
-        <p>Somos um programa com foco no
-          desenvolvimento de programas de
-          inglês para escolas de Educação
-          infantil. Gerenciamos 100% das
-          aulas, desde a criação até a
-          produção e aplicação do conteúdo.
-          Possuímos uma equipe própria e
-          garantimos não haver interrupção
-          das aulas em caso de ausência da
-          professora titular </p> 
-          <p>Mais do que gerir as aulas e oferecer todo
-            o suporte operacional, a Red Fox tem como
-            diretriz auxiliar no aumento da receita da
-            escola parceira, operando com um custo
-            acessível que permita a adesão massiva
-            dos pais, possibilitando que sua escola
-            insira uma margem sobre a nossa
-            mensalidade, sem alterar a percepção de
-            custo-benefício do Programa de Inglês!</p>
-      </div>
-      <div class="area2 columns feature-media left"> <img src="images/sobrenos.png" alt="" width="100%"> </div>
-    </div>
-	
-    </div>
-	
-</section>
-<section id="services" class="page-section colord">
-  <div class="container">
-    <div class="row"> 
-      <!-- item -->
-      <div class="col-md-3 text-center"><div class="b1"> <i class="circle"><img src="images/1.png" alt="" /></i>
-        <h3>Intra Curricular</h3>
-        <p>Aulas de inglês para todas as turmas definidas pela escola 2 a 4 vezes na semana.</p>
-      </div></div>
-      <!-- end: --> 
-      
-      <!-- item -->
-      <div class="col-md-3 text-center"><div class="b1"><i class="circle"> <img src="images/2.png" alt="" /></i>
-        <h3>Programa Bilíngue</h3>
-        <p>Programa diário de inglês, para todas as turmas definidas pela escola.</p>
-      </div></div>
-      <!-- end: --> 
-      
-      <!-- item -->
-      <div class="col-md-3 text-center"><div class="b1"><i class="circle"> <img src="images/3.png" alt="" /></i>
-        <h3>Extra Curricular</h3>
-        <p>Aulas por adesão opcional, podendo ser no contraturno ou no horário regular.</p>
-      </div></div>
-      <!-- end: --> 
-    </div>  
-  </div>
-  <!--/.container--> 
-</section>
-<section id="clients">
-  <div id="demo" class="clients">
-    <div class="container"> 
-      <div class="row">
-        <h2>Alguns de nossos parceiros</h2>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+    </header><!--/header-->
 
-        <div class="col-md-12">
-          <div class="customNavigation"> <a class="prev"><i class="fa fa-chevron-circle-left"></i></a> <a class="next"><i class="fa fa-chevron-circle-right"></i></a> </div>
-          <div id="owl-demo" class="owl-carousel">
-            <div class="item"> <span class="helper"> <img src="images/clients/1.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/2.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/3.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/4.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/5.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/6.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/7.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/8.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/9.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/10.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/11.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/12.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/13.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/14.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/15.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/16.png" alt="client" /></span> </div>
+    <section id="hero-banner">
+             <div class="banner-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                 
+                                    <h2>Colégio TCA</h2>
+                                    <p>Um colégio completo! <br>
+                                        Do berçario ao ensino médio.
+                                    </p>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section><!--/#main-slider-->
+<section class="download-now" id="products">
+        <div class="container">
+		 <div class="section-header">
+                <h2 class="section-title wow fadeInDown">Nossa escola</h2>
+            </div>
+			
+          <div class="row">
+            <div class="col-md-6 wp1 animated fadeInUp"> 
+              <p>No Colégio T.C.A, oferecemos uma jornada educativa completa desde o berçário até o ensino médio, com espaços pensados para inspirar e motivar os alunos em cada fase do desenvolvimento. Valorizamos nosso time de funcionários, que trabalha com compromisso para tornar a escola especial, mantendo um ambiente de trabalho transparente e motivador. Nossa proposta pedagógica é baseada nos quatro pilares da educação para o século XXI: aprender a conhecer, fazer, conviver e ser. Buscamos o desenvolvimento integral do aluno, criando condições para que cada um possa agir de forma segura e responsável em uma sociedade diversa e em constante transformação. Estamos comprometidos em oferecer uma experiência educacional excepcional, preparando os alunos não apenas para os desafios acadêmicos, mas também para a vida.</p>
+
+              <a href="#" class="download-btn">alguma coisa?</a>
+            </div>
+			<div class="col-md-6">
+				  <div class="row">
+                <div class="features">
+                    <div class="col-md-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+					 <div>
+                                <i class="fa fa-futbol-o"></i>
+                            </div>
+                        <div class="media service-box">
+                           
+                            <div class="media-body">
+                                <h4 class="media-heading">Esporte</h4>
+                                <p>A prática regular de esportes e atividades físicas traz inúmeros benefícios para o corpo e a mente, incluindo facilitar a socialização, auxiliar na disciplina, aumentar a autoconfiança, melhorar a concentração e ensinar habilidades de liderança e resiliência. Além das aulas de educação física, nosso colégio oferece treinos extracurriculares em diversas modalidades, como boxe, basquete, vôlei, futsal, handebol e dança, promovendo valores como cooperação, companheirismo, respeito às regras e tolerância.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+					<div>
+                                <i class="fa fa-language"></i>
+                            </div>
+                        <div class="media service-box">
+                            
+                            <div class="media-body">
+                                <h4 class="media-heading">Idiomas</h4>
+                                <p>O inglês na escola é essencial para a comunicação global e oportunidades futuras. Nossas aulas dinâmicas e professores qualificados preparam os alunos para um mundo interconectado.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+					  <div>
+                                <i class="fa fa-rocket"></i>
+                            </div>
+                        <div class="media service-box">
+                          
+                            <div class="media-body">
+                                <h4 class="media-heading">Robótica</h4>
+                                <p>Na nossa escola, a robótica é uma experiência transformadora, onde os alunos desenvolvem habilidades técnicas e trabalho em equipe para enfrentar desafios do futuro.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                
+
+                </div>
+            </div><!--/.row-->  
+			</div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section id="work" class="page-section page">
-  <div class="container text-center">
-    <div class="heading">
-      <h2>Metodologia na Prática</h2>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div id="portfolio">
-          <ul class="filters list-inline" style="display:none;">
-          </ul>
-          <ul class="items list-unstyled clearfix animated fadeInRight showing" data-animation="fadeInRight" style="position: relative; height: 438px;">
-            <li class="item branding" style="position: absolute; left: 0px; top: 0px;"> <a href="https://www.instagram.com/p/C40urOmOKQy/" class="fancybox"> <img src="images/work/1.png" alt="">
-              <div class="overlay"> <span></span> </div>
-              </a> </li>
-            <li class="item photography" style="position: absolute; left: 292px; top: 0px;"> <a href="https://www.instagram.com/p/C4q6zEtO8by/" class="fancybox"> <img src="images/work/2.png" alt="">
-              <div class="overlay"> <span></span> </div>
-              </a> </li>
-            <li class="item branding" style="position: absolute; left: 585px; top: 0px;"> <a href="https://www.instagram.com/p/C6wKBaZMcO6/?img_index=1" class="fancybox"> <img src="images/work/3.png" alt="">
-              <div class="overlay"> <span></span> </div>
-              </a> </li>
-            <li class="item photography" style="position: absolute; left: 877px; top: 0px;"> <a href="https://www.instagram.com/p/C6MOgVsOhUO/?img_index=1" class="fancybox"> <img src="images/work/4.png" alt="">
-              <div class="overlay"> <span></span> </div>
-              </a> </li>
-            <li class="item photography" style="position: absolute; left: 0px; top: 219px;"> <a href="https://www.instagram.com/p/C51TZOwu7YC/?img_index=1" class="fancybox"> <img src="images/work/5.png" alt="">
-              <div class="overlay"> <span></span> </div>
-              </a> </li>
-            <li class="item web" style="position: absolute; left: 292px; top: 219px;"> <a href="https://www.instagram.com/p/C6pS8bSMdJ0/?img_index=1" class="fancybox"> <img src="images/work/6.png" alt="">
-              <div class="overlay"> <span></span> </div>
-              </a> </li>
-            <li class="item photography" style="position: absolute; left: 585px; top: 219px;"> <a href="https://www.instagram.com/p/C4_eTAbLi_z/" class="fancybox"> <img src="images/work/7.png" alt="">
-              <div class="overlay"> <span></span> </div>
-              </a> </li>
-            <li class="item web" style="position: absolute; left: 877px; top: 219px;"> <a href="https://www.instagram.com/p/C4yYz61uHN9/" class="fancybox"> <img src="images/work/8.png" alt="">
-              <div class="overlay"> <span></span> </div>
-              </a> </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer>
-<div class="container">
-        <div class="row">
-            <div class="col-md-3">
-            	<div class="col">
-                   <h4>Contato</h4>
-                   <ul>
-                        <li>Telefone: +55 11 98811-9673 </li>
-                        <li>Email: <a href="coordenacao@redfoxenglish.com.br" title="Email Us">coordenacao@redfoxenglish.com.br</a></li>
-                    </ul>
-                 </div>
+      </section>
+   
+    <section id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">Estrutura</h2>
+                <p class="wow fadeInDown">Conheça alguns de nossos ambientes</p>
             </div>
-            
-            <div class="col-md-3">
-            	<div class="col col-social-icons">
-                    <h4>Redes sociais</h4>
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/redfoxenglishoficial/"><i class="fa fa-instagram"></i></a>
-                </div>
-        </div>
-         
-    </div>
-    
-</footer>
-<!--/.page-section-->
-<section class="copyright">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center"> Copyright 2024 | Todos direitos reservados -- BreakWeb </div>
-    </div>
-    <!-- / .row --> 
-  </div>
-</section>
-<a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a> 
 
-<!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]--> 
-<script src="js/modernizr-latest.js"></script> 
-<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script> 
-<script src="js/bootstrap.min.js" type="text/javascript"></script> 
-<script src="js/jquery.isotope.min.js" type="text/javascript"></script> 
-<script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script> 
-<script src="js/jquery.nav.js" type="text/javascript"></script> 
-<script src="js/jquery.fittext.js"></script> 
-<script src="js/waypoints.js"></script> 
-<script src="flexslider/jquery.flexslider.js"></script>
-<script src="js/custom.js" type="text/javascript"></script> 
-<script src="js/owl-carousel/owl.carousel.js"></script>
+            <div class="text-center">
+                <ul class="portfolio-filter">
+                    <li><a class="active" href="#" data-filter="*">Todos</a></li>
+                    <li><a href="#" data-filter=".designing">Berçario</a></li>
+                    <li><a href="#" data-filter=".mobile">Mobile App</a></li>
+                </ul><!--/#portfolio-filter-->
+            </div>
+
+            <div class="portfolio-items">
+                <div class="portfolio-item designing">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/01.jpg" alt="" width="850px">
+                        <div class="portfolio-info">
+                            <h3>Berçario</h3>
+                            <a class="preview" href="images/portfolio/01.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+						<h4>Berçario</h4>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item mobile development">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/02.jpg" alt="" width="850px">
+                        <div class="portfolio-info">
+                            <h3>Quadra</h3>
+                            <a class="preview" href="images/portfolio/02.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+						<h4>Quadra</h4>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item designing">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/03.jpg" alt="" width="850px">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/03.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+						<h4>Lorem Ipsum</h4>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item mobile">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/04.jpg" alt="" width="850px">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                            Some description..
+                            <a class="preview" href="images/portfolio/04.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+						<h4>Lorem Ipsum</h4>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item designing development">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/05.jpg" alt="" width="850px">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/05.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+						<h4>Lorem Ipsum</h4>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item mobile">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/06.jpg" alt="" width="850px">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/06.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+						<h4>Lorem Ipsum</h4>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item designing development">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/07.jpg" alt="" width="850px">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/07.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+						<h4>Lorem Ipsum</h4>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item mobile">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/08.jpg" alt="" width="850px">
+                        <div class="portfolio-info">
+                            <h3>Project Name</h3>
+                             Some description..
+                            <a class="preview" href="images/portfolio/08.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+						<h4>Lorem Ipsum</h4>
+                    </div>
+                </div><!--/.portfolio-item-->
+            </div>
+        </div><!--/.container-->
+    </section><!--/#portfolio-->
+
+   <section id="team">
+<div class="container">
+<div class="section-header">
+                <h2 class="section-title wow fadeInDown">Saindo da rotina</h2>
+                <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+            </div>			
+<div class="row" data-anim-type="fade-in-up">
+
+<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+<div class="team-wrapper">
+<div class="team-inner" style="background-image: url('images/team/01.PNG')">
+<a href="https://www.instagram.com/p/C5i6_wfAcxZ/" target="_blank"> <i class="fa fa-instagram"></i></a>
+</div>
+<div class="description">
+<h3>Robótica</h3>
+<p>
+</p>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+    <div class="team-wrapper">
+    <div class="team-inner" style="background-image: url('images/team/04.PNG')">
+    <a href="https://www.instagram.com/p/C3iLj2TAxde/" target="_blank"> <i class="fa fa-instagram"></i></a>
+    </div>
+    <div class="description">
+    <h3> Trilha</h3>
+    <p>
+    </p>
+    </div>
+    </div>
+    </div>
+<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+<div class="team-wrapper">
+<div class="team-inner" style="background-image: url('images/team/02.PNG')">
+<a href="https://www.instagram.com/p/C5RIc9kgOwZ/" target="_blank"> <i class="fa fa-instagram"></i></a>
+</div>
+<div class="description">
+<h3> Stand up</h3>
+<p>
+</p>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+<div class="team-wrapper">
+<div class="team-inner" style="background-image: url('images/team/03.PNG')">
+<a href="https://www.instagram.com/p/C30xq20v44A/" target="_blank"> <i class="fa fa-instagram"></i></a>
+</div>
+<div class="description">
+<h3> Argila</h3>
+<p>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+    <section id="contact-us">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">Localização</h2>
+            </div>
+        </div>
+    </section><!--/#contact-us-->
+
+
+    <section id="contact">
+        
+        <div class="mapBox">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14624.139150705509!2d-46.4805705!3d-23.6030853!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce67d3a35e87d7%3A0x18665714415baf35!2sCol%C3%A9gio%20TCA!5e0!3m2!1spt-BR!2sbr!4v1713981665279!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+
+        <div class="container">
+            <div class="container contact-info">
+                <div class="row">
+				  <div class="col-sm-4 col-md-4">
+                        <div class="contact-form">
+                            <h3>Informações</h3>
+
+                            <address>
+                              <strong>Colégio TCA</strong><br>
+                              Rua Alexandre Ciccarelli, 919<br>
+                              Cidade São Mateus, São Paulo - SP, 03966-000<br>
+                              <abbr title="Phone">Telefone:</abbr>  (11) 4570-0174
+                            </address>
+					</div></div>
+                    <div class="col-sm-8 col-md-8">
+
+                    </div>
+                </div>
+            </div>
+        </div>   
+   </section><!--/#bottom-->
+
+
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                </div>
+                <div class="col-sm-6">
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/mousescroll.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom-scripts.js"></script>
 </body>
 </html>
