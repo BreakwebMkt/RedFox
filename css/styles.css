@@ -329,7 +329,7 @@ margin-top: 101px;
 }
 .navbar-inverse .navbar-toggle {
 	background-color: #A43E89;
-	background: #38BEE7;  border: 0;
+	background: #1B3465;  border: 0;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
 /*background-color: #A43E89;*/
@@ -640,6 +640,7 @@ a.arrow-link:hover {
 
 
 .carousel-container {
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
@@ -1285,6 +1286,13 @@ font-size: 14px;
   float: left;
   padding: 10px;
   }
+
+  .carousel-container {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+
   #home { 
   margin-top: 86px;
 }
