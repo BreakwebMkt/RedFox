@@ -833,6 +833,18 @@ border-radius: 50%;
 .team-member {
 	padding-top: 5px;
 }
+html ::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  html ::-webkit-scrollbar-thumb {
+	border-radius: 50px;
+	background: #3d69c1;
+  }
+  
+  html ::-webkit-scrollbar-track {
+	background: #ededed;
+  }
 .team-socials {
 	margin: 15px 0;
 	opacity: 0;
@@ -994,6 +1006,7 @@ body {
 	margin: 0;
 	font-family: Arial, sans-serif;
 	background: #DCE8EC;
+	
 }
 #navigation {
 	position: fixed;
