@@ -316,8 +316,28 @@ margin-top: 101px;
     padding-bottom: 22px;
 
 }
+.textProgramas{
+	color: #27387b;
+	text-align: center;
+	font-weight: bolder;
 
+}
 
+.responsive-image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px; /* Add padding for better readability */
+}
+
+.responsive-image-section picture, 
+.responsive-image-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
 .addBg {
 	background: rgba(254, 254, 254, 1);
